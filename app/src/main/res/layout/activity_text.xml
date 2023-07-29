@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADFF00"
+    tools:context=".Text_activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="268dp"
+        android:fontFamily="@font/koulen"
+        android:text="Text"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/koulen"
+        android:text="5:00"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="#263238"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/textstyle1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="In recent years, the popularity of electric vehicles (EVs) has surged, driven by their environmental benefits and technological advancements. EVs produce lower emissions compared to conventional internal combustion engine vehicles, helping to combat air pollution and reduce greenhouse gas contributions. Additionally, advancements in battery technology have improved the range and charging capabilities of EVs, making them more practical for daily use. As electric vehicle adoption continues to grow, one question arises: What are the key factors influencing the widespread adoption of electric vehicles, and how can we further encourage their integration into the mainstream automotive market?" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/continueBut"
+        style="@style/buttonstyle1"
+        android:layout_width="134dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="5dp"
+        android:fontFamily="@font/koulen"
+        android:stateListAnimator="@null"
+        android:text="Continue"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:cornerRadius="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5"
+        app:strokeColor="#000000"
+        app:strokeWidth="1.3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textstyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/lexend_deca</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="buttonstyle1">
+        <item name="android:layout_width">380dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">87dp</item>
+        <item name="android:backgroundTint">#263238</item>
+    </style>
+
+    <style name="buttonstyle2">
+        <item name="android:layout_width">380dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:backgroundTint">#263238</item>
+    </style>
+
+    <style name="passwordstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:backgroundTint">#263238</item>
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="passwordstyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:backgroundTint">#263238</item>
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+</resources>
